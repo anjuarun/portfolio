@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,700,700i|Droid+Sans:400,700|Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+
+body
+{
+padding-top:0px;
+}
+
+/**--header part---**/
+
+header {
+	
+  background-image: url('diary.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color:silver;
+}
+
+
+header h1
+{
+	font-family: 'Shrikhand', cursive;
+	font-weight:400;
+	font-size:50px;	
+	padding:25px 0px;
+}
+header h4
+{
+	font-family: 'Shrikhand', cursive;
+	font-weight:400;
+	padding-top:20px;
+	padding-bottom:30px;
+	font-size:20px;
+}
+header .profile_img
+{
+	border-radius:50%;
+	width:300px;
+	height:250px;
+	padding-top:30px;
+}
+
+header  a.btn
+{
+	margin-top:0px;
+	margin-bottom:50px;
+	
+}
+header ul li{
+	display:inline;
+	text-decoration:none;
+	text-align:right;
+	padding:0px 30px;
+	margin-top:30px;
+}
+header ul li a
+{
+	padding:0px 30px;
+	margin-top:30px;
+	text-align:right;
+	font-family: 'Shrikhand', cursive;
+	font-weight:400;
+}
+header ul li a:hover
+{
+	text-decoration:none;
+	color:yellow;
+}
+
+
+/**--About--**/
+#about
+{
+	text-align:center;
+	font-family:'Alegreya';
+	font-weight:400;
+}
+#about h2
+{
+	font-weight:700;
+	padding:10px 0px;
+	font-size:40px;
+	
+}
+
+.tabs-menu{
+	text-decoration:none;
+	font-family:'Alegreya';
+	display:inline;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	font-size:30px;
+	font-weight:500;
+	
+}
+.tabs-menu li
+{
+	text-decoration:none;
+	text-align:center;
+	display:inline-block;
+	padding:0px 30px;
+	font-size:30px;
+	font-weight:600;	
+}
+.tabs-menu li a
+{
+	text-decoration:none;
+	text-align:center;
+	display:inline-block;
+	font-size:30px;
+	font-weight:600;	
+}
+.tabs-menu li.biography
+{
+	margin-left:25%;	
+}
+.tab #bio
+{
+	padding:20px 100px;
+	line-height:1.8em;
+	font-family:Alegreya;
+	font-size:20px;
+	font-weight:500;
+	font-style:Italics;
+}
+.tab #skills  h5
+{
+	font-size:25px;
+}
+.tab #experience h5
+{
+	font-size:25px;
+}
+.tab #skills .meter
+{
+	padding:10px 50px;
+	line-height:1.3em;
+	font-family:Alegreya;
+	font-size:20px;
+	font-weight:500;
+	font-style:Italics;
+}
+.tab #experience
+{
+	padding:20px 100px;
+	line-height:1.5em;
+	font-family:Alegreya;
+	font-size:20px;
+	font-weight:500;
+	font-style:Italics;
+}
+
+
+
+
+/**--portfolio--**/
+div #portfolio
+{
+	margin:30px;
+}
+#portfolio h2{
+	text-align:center;
+	font-family:'Alegreya';
+	font-weight:700;
+	padding:10px 0px;
+	font-size:40px;
+}
+img.works
+{
+	width:380px;
+	height:250px;
+	border-radius:0px;
+	padding:5px 0px;
+}
+
+/**--contact--**/
+
+div #contact
+{
+	margin:30px;
+}
+#contact h2{
+	text-align:center;
+	font-family:'Alegreya';
+	font-weight:700;
+	padding:20px 0px;
+	font-size:40px;
+}
+div #contact  h4
+{
+	text-align:center;
+	font-style:italic;
+	font-family:'Alegreya';
+	font-weight:600;
+	font-size:1.6em;
+}
+div #contact .contact-info
+{
+	line-height:1.3em;
+	padding:20px 5px;
+	font-size:18px;
+}
+div #contact .contact-info .mail
+{
+	padding:5px 8px;
+	line-height:1.3em;
+	
+}
+div #contact .contact-info .phone
+{
+	padding:5px 8px;
+	line-height:1.3em;
+}
+div #contact .contact-info .skype
+{
+	padding:5px 8px;
+	line-height:1.3em;
+}
+
+
+
